@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(44, 44, 44);
+    background: linear-gradient(90deg, rgba(10,0,173,1) 0%, rgba(105,9,121,1) 48%, rgba(10,0,173,1) 100%)
+}
+
+.title{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+}
+
+.content_background{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 40), 0 0px 35px rgba(0, 0, 0, 25);
+    opacity: 1;
+    margin: 50px;
+    padding: 20px;
+}
+
+.content{
+    background: rgb(187, 203, 255);
+    padding: 100px 100px;
+    font-size: 50px;
+    opacity: 1;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0px 15px black, 0 0px 20px black;
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 40), 0 0px 35px rgba(0, 0, 0, 25);
+}
+
+.inputfield{
+    background-color: rgba(0, 0, 0, 155);
+    border: none;
+    color: springgreen;
+    padding: 10px 100px;
+    text-align: left;
+    font-size: 15px;
+    transition-duration: 200ms;
+}
+
+.inputfield:hover{
+    background-color: rgba(0, 0, 0, 180);
+    padding: 15px 100px;
+}
+
+.sendbutton{
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 7px 40px;
+    cursor: pointer;
+    font-size: 12;
+    transition-duration: 300ms;
+}
+
+.sendbutton:hover{
+    background-color: rgb(1, 155, 1);
+    padding: 8px 41px;
+    font-size: 16;
+    text-shadow: 0 0px 10px black, 0 0px 5px black;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 55), 0 0px 25px rgba(0, 0, 0, 25);
+}
+.cancelbutton{
+    border: none;
+    color: white;
+    background-color: rgb(255, 34, 34);
+    padding: 7px 40px;
+    cursor: pointer;
+    font-size: 12;
+    transition-duration: 300ms;
+}
+
+.cancelbutton:hover{
+    background-color: rgb(255, 64, 64);
+    padding: 8px 41px;
+    font-size: 16;
+    text-shadow: 0 0px 10px black, 0 0px 5px black;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 55), 0 0px 25px rgba(0, 0, 0, 25);
+}
+
+.output_holder{
+    background-color: rgb(39, 39, 39);
+    color: greenyellow;
+    margin: 20px;
+    padding: 100px 50px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ERROR{
+    font-size: 21;
+    color: red;
+    background-color: black;
+    text-shadow: white;
+    cursor: not-allowed;
+    padding: 10px 10px;
+    transition-duration: 500ms;
+}
